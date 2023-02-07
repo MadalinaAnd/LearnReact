@@ -1,9 +1,8 @@
 function Home(){
 return(
     <div>
-        <nav className="navBar">
         <h1>Home Page</h1>
-        </nav>
+        <img src={require("E:\\Projects\\Work\\LearnReact\\learn_react\\src\\cat.jpg")} alt="Logo" />
     </div>
 );
 }
